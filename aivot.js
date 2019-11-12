@@ -44,3 +44,45 @@ function yhteystietoFunktio() {
     }
     document.getElementById("yhteystiedotTuloste").innerHTML = text;
   }
+  function diagrammiFunktio(){
+    // etsitään harjoitus2.html sivulta elementti, jonka id=myCanvas
+    var c = document.getElementById('myCanvas');
+    var ctx = c.getContext('2d');
+    ctx.beginPath();
+
+    // diagrammiin voidaan kirjoittaa numeroita haluttuihin kohtiin.
+    ctx.fillText('50', 0, 450);
+    
+    // Alla olevalla koodilla voidaan piirtää viivaa diagrammiin.
+    ctx.moveTo(40, 200);
+    ctx.fillText('200', 40, 200);
+    ctx.lineTo(60, 250);
+    ctx.fillText('250', 60, 250);
+    ctx.lineTo(80, 200);
+    ctx.fillText('200', 80, 200);
+    ctx.lineTo(100, 220);
+    ctx.fillText('220', 100, 220);
+    ctx.lineTo(120, 240);
+    ctx.fillText('240', 110, 240);
+    ctx.lineTo(140, 260);
+    ctx.fillText('260', 140, 260);
+    ctx.lineTo(160, 280);
+    ctx.fillText('280', 160, 280);
+    ctx.lineTo(180, 120);
+    ctx.fillText('120', 180, 120);
+    ctx.lineTo(200, 80);
+    ctx.fillText('80', 200, 80);
+    ctx.lineTo(205, 111);
+    ctx.fillText('111', 205, 111);
+    ctx.stroke();
+
+    ctx.fillText('80', 0, 200);
+    ctx.fillText('200', 0, 200);
+    ctx.fillText('40', 0, 150);
+    ctx.fillText('20', 0, 100);
+    ctx.stroke();
+
+
+  }
+    
+    
