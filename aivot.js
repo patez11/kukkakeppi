@@ -76,10 +76,27 @@ function yhteystietoFunktio() {
     ctx.fillText('111', 205, 111);
     ctx.stroke();
 
-    ctx.fillText('80', 0, 200);
-    ctx.fillText('200', 0, 200);
-    ctx.fillText('40', 0, 150);
-    ctx.fillText('20', 0, 100);
+    ctx.fillText('80', 10, 100);
+    ctx.fillText('111', 10, 120);
+    ctx.fillText('120', 10, 140);
+    ctx.fillText('140', 10, 160);
+    ctx.fillText('160', 10, 180);
+    ctx.fillText('200', 10, 200);
+    ctx.fillText('220', 10, 220);
+    ctx.fillText('240', 10, 240);
+    ctx.fillText('250', 10, 260);
+    ctx.fillText('260', 10, 280);
+    ctx.fillText('280', 10, 300);
+
+    ctx.fillText('200', 40, 300);
+    ctx.fillText('250', 60, 300);
+    ctx.fillText('200', 80, 300);
+    ctx.fillText('220', 100, 300);
+    ctx.fillText('240', 120, 300);
+    ctx.fillText('260', 140, 300);
+    ctx.fillText('280', 160, 300);
+    ctx.fillText('80', 180, 300);
+    
     ctx.stroke();
 
 
