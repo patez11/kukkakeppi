@@ -96,7 +96,6 @@ function yhteystietoFunktio() {
     ctx.fillText('260', 140, 300);
     ctx.fillText('280', 160, 300);
     ctx.fillText('80', 180, 300);
-    
     ctx.stroke();
 
 
